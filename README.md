@@ -301,7 +301,7 @@ public class BookShelf implements IEntity {
 	/**
 	 * 分库策略
 	 */
-	public static class GridStrategy<D extends DB> implements IGridable<BookShelf> {
+	public static class GridStrategy implements IGridable<BookShelf> {
 
 		@Override
 		public int select(int dbs, BookShelf t) {

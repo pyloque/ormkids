@@ -3,14 +3,13 @@ package ormkids.demo;
 import java.util.Date;
 import java.util.zip.CRC32;
 
-import ormkids.DB;
-import ormkids.IEntity;
-import ormkids.IGridable;
-import ormkids.Utils;
 import ormkids.E.Column;
 import ormkids.E.Table;
 import ormkids.E.TableIndices;
 import ormkids.E.TableOptions;
+import ormkids.IEntity;
+import ormkids.IGridable;
+import ormkids.Utils;
 
 @Table
 public class BookShelf implements IEntity {
@@ -84,7 +83,7 @@ public class BookShelf implements IEntity {
 	/**
 	 * 分库策略
 	 */
-	public static class GridStrategy<D extends DB> implements IGridable<BookShelf> {
+	public static class GridStrategy implements IGridable<BookShelf> {
 
 		@Override
 		public int select(int dbs, BookShelf t) {

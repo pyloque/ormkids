@@ -12,12 +12,12 @@ public class GridDemoDB extends GridDB<DemoDB> {
 		this.registerGridables();
 	}
 
-	/* 
+	/*
 	 * 注册实体类的分库策略
 	 */
 	@Override
 	public void registerGridables() {
-		this.gridWith(BookShelf.class, new BookShelf.GridStrategy<DemoDB>());
+		this.gridWith(BookShelf.class, new BookShelf.GridStrategy());
 	}
 
 }
