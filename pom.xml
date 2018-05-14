@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.github.pyloque</groupId>
 	<artifactId>ormkids</artifactId>
-	<version>0.0.3-SNAPSHOT</version>
+	<version>0.0.2-SNAPSHOT</version>
 
 	<name>ormkids</name>
 	<url>http://maven.apache.org</url>
