@@ -8,7 +8,7 @@ OrmKids
 2. 易于使用，无须复杂的配置
 3. 提供自动创建表功能
 4. 支持分库又分表，可以只分库，也可以只分表
-5. 支持groupby/having
+5. 支持groupby/having/order by
 6. 支持原生SQL
 7. 支持事件回调，可用于服务跟踪调试和动态sql改写
 
