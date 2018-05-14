@@ -9,14 +9,13 @@ import ormkids.E.TableOptions;
 public interface IEntity {
 
 	/**
-	 * 表名
-	 * @return
+	 * @return 表名
 	 */
 	String table();
 
 	/**
 	 * 分表必须覆盖此方法
-	 * @return
+	 * @return 分表后缀名
 	 */
 	default String suffix() {
 		return null;
@@ -32,13 +31,13 @@ public interface IEntity {
 	
 	/**
 	 * 定义表的物理结构属性如engine=innodb，用于动态创建表
-	 * @return
+	 * @return 表物理存储选项
 	 */
 	TableOptions options();
 
 	/**
 	 * 定义表的主键和索引信息，用于动态创建表
-	 * @return
+	 * @return 表索引结构
 	 */
 	TableIndices indices();
 

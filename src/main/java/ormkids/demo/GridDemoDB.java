@@ -6,6 +6,7 @@ public class GridDemoDB extends GridDB<DemoDB> {
 
 	/**
 	 * 传进来多个DB对象
+	 * @param dbs db objects
 	 */
 	public GridDemoDB(DemoDB[] dbs) {
 		super(dbs);
