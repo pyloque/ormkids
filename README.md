@@ -2,6 +2,14 @@ OrmKids
 ==
 支持分库分表的MySQL单表ORM框架，暂用于学习，后续会在生产环境进行检验
 
+```
+<dependency>
+    <groupId>com.github.pyloque</groupId>
+    <artifactId>ormkids</artifactId>
+    <version>0.0.4</version>
+</dependency>
+```
+
 功能特性
 --
 1. 代码简洁，没有任何依赖项
